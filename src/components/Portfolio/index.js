@@ -2,6 +2,8 @@ import React from "react";
 import WorkDay from "../../assets/images/WorkDaySchedular.png";
 import penetrationTest from "../../assets/images/penetrationTest.png";
 import OpnsenseWazuh from "../../assets/images/OpnsenseWazuh.png";
+import LabSlides from "../../assets/resume/opnsense_lab_slides.pdf";
+import { BsCloudDownload } from "react-icons/bs";
 
 function Portfolio() {
   return (
@@ -11,6 +13,18 @@ function Portfolio() {
         <div className="flex-row">
           {/* Section title */}
           <h2 className="section-title secondary-border">Projects</h2>
+        </div>
+
+        <div className="flex-row">
+          <div className="download-info">
+            <div className="download-text">
+              {/* Download resume link */}
+              <h1>Download my Opnsense firewall and wazuh SIEM slides!</h1>
+              <a href={LabSlides} className="download-logo" download>
+                  <BsCloudDownload />
+              </a>
+            </div>
+          </div>
         </div>
 
         {/* Opnsense firewall and Wazuh SIEM project */}
