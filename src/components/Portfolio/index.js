@@ -1,6 +1,7 @@
 import React from "react";
 import WorkDay from "../../assets/images/WorkDaySchedular.png";
 import penetrationTest from "../../assets/images/penetrationTest.png";
+import website from "../../assets/images/website.png"
 import penetrationTest2 from "../../assets/images/penetrationTest2.png";
 import OpnsenseWazuh from "../../assets/images/OpnsenseWazuh.png";
 import LabSlides from "../../assets/resume/opnsense_lab_slides.pdf";
@@ -135,6 +136,34 @@ function Portfolio() {
             </div>
           </div>
         </div>
+
+
+         {/* this website */}
+         <div className="job">
+          <div className="job-info">
+            <div className="job-img">
+              {/* Link to deployed Work Day Scheduler app */}
+              <a href="https://github.com/Srgowen/ReactPortfolio">
+                <img
+                  src={website}
+                  className="my-2"
+                  style={{ width: "100%" }}
+                  alt="workdayschedular"
+                />
+              </a>
+            </div>
+            <div className="job-text">
+              {/* Link to deployed Work Day Scheduler app */}
+              <a href="https://github.com/Srgowen/ReactPortfolio">
+                <h4>Portfolio React Website</h4>{" "}
+              </a>
+              <p>
+                This is a website I made with react to act as a platform to showcase my skills.
+              </p>
+            </div>
+          </div>
+        </div>
+
       </section>
     </div>
   );
