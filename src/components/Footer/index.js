@@ -14,11 +14,11 @@ function Footer() {
               <VscGithubAlt />
             </li>
           </a>
-          <a href="">
+         {/*  <a href="">
             <li className="logo">
               <AiOutlineLinkedin />
             </li>
-          </a>
+          </a> */}
           <a href="https://www.instagram.com/spearfishing_steven/">
             <li className="logo">
               <FaInstagram />

@@ -1,6 +1,7 @@
 import React from "react";
 import WorkDay from "../../assets/images/WorkDaySchedular.png";
 import penetrationTest from "../../assets/images/penetrationTest.png";
+import penetrationTest2 from "../../assets/images/penetrationTest2.png";
 import OpnsenseWazuh from "../../assets/images/OpnsenseWazuh.png";
 import LabSlides from "../../assets/resume/opnsense_lab_slides.pdf";
 import { BsCloudDownload } from "react-icons/bs";
@@ -104,6 +105,32 @@ function Portfolio() {
               <p>
                 This app can be used to plan your workday by saving scheduled
                 events.
+              </p>
+            </div>
+          </div>
+        </div>
+        
+        {/* penetration test report #2 */}
+        <div className="job">
+          <div className="job-info">
+            <div className="job-img">
+              {/* Link to deployed Work Day Scheduler app */}
+              <a href="https://docs.google.com/document/d/1-kES_Ju7M9mZn4VB1XiKNkiZ3lriRDNsQqyGhwcjfho/edit">
+                <img
+                  src={penetrationTest2}
+                  className="my-2"
+                  style={{ width: "100%" }}
+                  alt="penetration test"
+                />
+              </a>
+            </div>
+            <div className="job-text">
+              {/* Link to deployed Work Day Scheduler app */}
+              <a href="https://docs.google.com/document/d/1-kES_Ju7M9mZn4VB1XiKNkiZ3lriRDNsQqyGhwcjfho/edit">
+                <h4>pentration test for Rekall application</h4>{" "}
+              </a>
+              <p>
+                This is a penetration test i performed on a fictitious organization.
               </p>
             </div>
           </div>

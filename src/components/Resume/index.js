@@ -41,6 +41,7 @@ function Resume() {
                 <GrTechnology />
               </li>
               <li>SIEM</li>
+              <li>EDR/XDR</li>
               <li>Firewalls</li>
               <li>Linux</li>
               <li>Windows</li>
