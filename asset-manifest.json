@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/delete_react/static/css/main.807a000a.css",
+    "main.js": "/delete_react/static/js/main.be803d33.js",
+    "static/media/Steven.jpg": "/delete_react/static/media/Steven.9cd92bf2ffe0da669c86.jpg",
+    "static/media/opnsense_lab_slides.pdf": "/delete_react/static/media/opnsense_lab_slides.de04770da45568fd52d6.pdf",
+    "static/media/website.png": "/delete_react/static/media/website.5503ececf1d60ad85a61.png",
+    "static/media/OpnsenseWazuh.png": "/delete_react/static/media/OpnsenseWazuh.31a2175f059264dda17c.png",
+    "static/media/cyber_sec_resume.pdf": "/delete_react/static/media/cyber_sec_resume.61c55dd771cf5b4f7a46.pdf",
+    "static/media/coverImage.png": "/delete_react/static/media/coverImage.b6508cb52b9264038a51.png",
+    "static/media/WorkDaySchedular.png": "/delete_react/static/media/WorkDaySchedular.c67bc3d42b0d57445274.png",
+    "static/media/penetrationTest.png": "/delete_react/static/media/penetrationTest.1e5b3561aaafd91398c0.png",
+    "static/media/penetrationTest2.png": "/delete_react/static/media/penetrationTest2.8ab1de41332063dfbc34.png",
+    "index.html": "/delete_react/index.html",
+    "main.807a000a.css.map": "/delete_react/static/css/main.807a000a.css.map",
+    "main.be803d33.js.map": "/delete_react/static/js/main.be803d33.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.807a000a.css",
+    "static/js/main.be803d33.js"
+  ]
+}
